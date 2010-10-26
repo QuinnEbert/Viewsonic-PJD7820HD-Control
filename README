@@ -10,7 +10,9 @@ Mostly feature complete, cannot get data back from read/get commands
 
 
 Requirements:
-============-
+=============
 - pyserial (http://pyserial.sourceforge.net/)
 
-
+License:
+========
+See LICENSE
