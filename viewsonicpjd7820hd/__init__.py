@@ -1,14 +1,14 @@
 #!/usr/bin/python
-"""Commands and control for the Viewsonic Pro 8100.
+"""Commands and control for the Viewsonic PJD7820HD.
 
 Model website:
-http://www.viewsonic.com/products/projectors/pro8100.htm
+<TODO>
 
 Manual for the projector:
-http://www.viewsonic.com/assets/005/5446.pdf
+<TODO>
 """
 
-__author__ = 'Will Nowak <wan@ccs.neu.edu>'
+__author__ = 'Quinn Ebert <no-reply@quinnebert.net>'
 
 import serial
 import logging
@@ -23,7 +23,7 @@ class InvalidCommandException(Exception):
   """Raised when an invalid command is provided."""
 
 
-class ViewsonicPro8100(object):
+class ViewsonicPJD7820HD(object):
   def __init__(self, serial_port):
     self.serial_port = serial_port
     self.serial_connection = None

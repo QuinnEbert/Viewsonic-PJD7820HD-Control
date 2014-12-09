@@ -6,7 +6,7 @@ f = open(sys.argv[1])
 
 print '#!/usr/bin/python'
 print
-print '"""Command set for the Viewsonic 8100 Projector.'
+print '"""Command set for the Viewsonic PJD7820HD Projector.'
 print
 print 'This file was automatically created by %s' % sys.argv[0]
 print 'from the source file: %s' % sys.argv[1]
