@@ -38,7 +38,7 @@ class ViewsonicPJD7820HD(object):
 
   def connectSerial(self):
     if self.serial_connection is None:
-      self.serial_connection = serial.Serial(self.serial_port, 19200)
+      self.serial_connection = serial.Serial(self.serial_port, 115200)
 
   def disconnectSerial(self):
     if self.serial_connection is not None:
